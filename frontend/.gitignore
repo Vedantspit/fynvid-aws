@@ -1,0 +1,68 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Diagnostic reports
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage reports
+coverage/
+*.lcov
+.nyc_output/
+
+# Dependency directories
+node_modules/
+bower_components/
+jspm_packages/
+
+# Build output
+dist/
+build/
+public/
+.vite/
+.cache/
+.parcel-cache/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+.env.production
+.env.test
+
+# TypeScript
+*.tsbuildinfo
+
+# IDE / Editor
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
+
+# Misc
+*.tgz
+.npm
+.eslintcache
+.yarn-integrity
+
+# Yarn v2 / pnpm
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# Serverless / temporary tools
+.serverless/
